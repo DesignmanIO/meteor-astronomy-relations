@@ -1,9 +1,13 @@
-##Installation
+# Astronomy relations behavior
+For Astronomy 2.2+. Add and retrieve relationships with ease.
+Doesn't handle publishing.
+
+## Installation
 ```sh
 $ meteor add buishi:astronomy-relations-behavior
 ```
 
-##Useage
+## Useage
 Note that the `getRelated` and `relateTo` functions are only applied to the class the relation is defined in, so if you want to be able to use it from both sides, add it to both classes (in the below example, you would also add a relation behavior to the Post class).
 ```javascript
 // in class setup
