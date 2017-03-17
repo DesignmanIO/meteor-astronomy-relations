@@ -2,7 +2,7 @@ Package.describe({
   name: 'buishi:astronomy-relations-behavior',
   version: '2.0.0',
   summary: 'Timestamp behavior for Meteor Astronomy v2',
-  git: 'https://github.com/DesignmanIO/meteor-astronomy-2-relations.git'
+  git: 'https://github.com/DesignmanIO/meteor-astronomy-relations.git'
 });
 
 Package.onUse(function(api) {
